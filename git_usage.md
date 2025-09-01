@@ -106,3 +106,13 @@ git push origin dev
 
 ```
 
+# 8.设置账户
+```bash
+git config --global user.name "yaoyunying-max" 
+git config --global user.email "yyy1847916584@163.com" # github 注册的邮箱
+# 查看 git 账号信息
+git config user.name
+git config user.email
+# 或者直接使用以下命令就可以看到整个账户信息
+git config --list
+```
