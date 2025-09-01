@@ -44,6 +44,7 @@ git clone https://github.com/yaoyunying-max/code_note.git
 # 6.复制服务器上修改的内容到仓库中
 ```bash
 # 从原始仓库地址克隆裸版本库
+# 参考学习链接：https://geek-docs.com/git/git-questions/150_tk_1704599022.html
 git clone --bare https://github.com/yaoyunying-max/code_note.git
 ## 依次输入用户名和密码
 # Cloning into bare repository 'code_note.git'...
