@@ -85,3 +85,24 @@ git push --mirror https://gitlab.com/yao_yy/code_note_new.git
 
 
 # 7.复制别人参考的内容至服务器中
+```bash
+#使用Fork功能
+#Fork 是GitHub提供的一个功能，可以将别人的仓库复制到自己的账户下。操作步骤如下：
+#进入目标仓库：打开你想要复制的项目的GitHub页面。
+#点击Fork按钮：在页面的右上角找到并点击“Fork”按钮。稍等片刻，GitHub会在你的账户下创建一个一模一样的项目，包括文件、提交历史、issues等。
+
+# 1.克隆到本地：在自己的GitHub页面找到刚刚Fork的项目，点击“Code”按钮，复制HTTPS地址。然后在本地使用以下命令克隆项目：
+git clone https://github.com/zywu2002/optDNTRA.git
+#创建新分支：为了避免直接在master分支上修改，建议在master分支的基础上创建一个新的分支，例如dev分支：
+
+## 后续的未测试
+git checkout -b dev
+复制
+进行修改并提交：在dev分支上进行修改，完成后提交并推送到自己的GitHub仓库：
+
+git add
+git commit -m "修改说明"
+git push origin dev
+
+```
+
