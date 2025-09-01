@@ -30,7 +30,7 @@ cp -R ~/.ssh/* /gpfs/users/yaoyy/gitlab_new/.ssh/
 # 5.复制仓库的地址到服务器上
 ```bash
 # 首先在git上找到你要clone的分支，然后选择后面的clone，然后选择ssh地址复制
-git clone git@gitlab.com:yao_yy/code_note.git
+git clone https://github.com/yaoyunying-max/code_note.git
 ## 会输出以下内容
 #Cloning into 'code_note'...
 #remote: Enumerating objects: 14, done.
@@ -44,7 +44,7 @@ git clone git@gitlab.com:yao_yy/code_note.git
 # 6.复制服务器上修改的内容到仓库中
 ```bash
 # 从原始仓库地址克隆裸版本库
-git clone --bare https://gitlab.com/yao_yy/code_note.git
+git clone --bare https://github.com/yaoyunying-max/code_note.git
 ## 依次输入用户名和密码
 # Cloning into bare repository 'code_note.git'...
 # Username for 'https://gitlab.com': yao_yy
@@ -59,7 +59,7 @@ git clone --bare https://gitlab.com/yao_yy/code_note.git
 cd ./code_note.git
 
 # 6. 以镜像的方式迁移到新的git仓库中
-git push --mirror https://gitlab.com/yao_yy/code_note_new.git
+git push --mirror https://github.com/yaoyunying-max/code_note.git
 # Counting objects: 14, done.
 # Delta compression using up to 80 threads.
 # Compressing objects: 100% (12/12), done.
