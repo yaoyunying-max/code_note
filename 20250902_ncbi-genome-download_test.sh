@@ -1,8 +1,6 @@
 source /coldata/yanjiuyuan/yaoyy/New_home/.bashrc
 
-pip install ncbi-genome-download
 
-pip install --target=/coldata/yanjiuyuan/yaoyy/New_home/miniconda3/pkgs/ ncbi-genome-download
 
 
 ## 
@@ -84,3 +82,8 @@ sys.path = [
 USER_BASE: '/coldata/yanjiuyuan/yaoyy/New_home/miniconda3/lib/python3.8' (exists)
 USER_SITE: '/coldata/yanjiuyuan/yaoyy/New_home/miniconda3/lib/python3.8/site-packages/' (exists)
 ENABLE_USER_SITE: True
+
+## 安装软件
+pip install ncbi-genome-download
+which ncbi-genome-download
+#/coldata/yanjiuyuan/yaoyy/New_home/miniconda3/bin/ncbi-genome-download
